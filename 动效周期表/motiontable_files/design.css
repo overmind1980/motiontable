@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+
+
+
+
+#loader-bg {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background: #121212;
+  z-index: 1;
+}
+#loader {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+
+
+p{
+	color:#FFFFFF;
+	font-family: "KozGoPro-ExtraLight", "小塚ゴシック Pro EL", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+	
+}
+
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+
+
+
+
+
+
+
+
+
+body {background-color:#464343;
+
+}
+
+
+
+
+
+
+.hedder{
+	
+	height:70px;
+	background-color:#2A2A2A;
+	border-bottom:solid 1px #434343;
+	margin-bottom:10px;
+}
+.fotter{
+	height:500px;
+	margin-top:10px;
+	background-color:#2A2A2A;
+	border-top:solid 1px #434343;
+	width:100%;
+
+}
+
+
+
+.top{
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:-50px;
+	
+	width:100%;
+
+}
+
+
+/* これのWidthをいじると編集が容易*/
+
+td img{
+	width:100%;
+	margin:0;
+	vertical-align:bottom;
+	
+
+	}
+	
+
+
+	
+	
+table{
+	
+	
+	border:0px;
+	margin:0px;
+	padding:0px;
+	border-collapse: collapse;
+    border:1px solid #D5D5D5;
+	margin-left: auto; 
+	margin-right: auto;
+	empty-cells:hide;
+	font-size:0;
+	
+}
+
+
+td p{
+	text-align:center;
+	
+	
+}
+
+.table001{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+th,td{
+
+	padding:0px;
+	margin:0px;
+	border:1px solid #5B5B5B;
+	empty-cells:hide;
+	font-size:0;
+	
+	
+
+}
+	
+
+
+
+a{
+    background-color:#FFBE00;
+    display:block;
+	
+	
+}
+
+a:hover img{
+    cursor:pointer;
+    filter: alpha(opacity=60);        /* ie lt 8 */
+    -ms-filter: "alpha(opacity=60)";  /* ie 8 */
+    -moz-opacity:0.6;                 /* FF lt 1.5, Netscape */
+    -khtml-opacity: 0.6;              /* Safari 1.x */
+    opacity:0.6;
+    zoom:1;
+	-webkit-transition: 0.3s ease-in-out;
+	   -moz-transition: 0.3s ease-in-out;
+	     -o-transition: 0.3s ease-in-out;
+	        transition: 0.3s ease-in-out;
+}
+
+
+
+.hid{
+	border:hidden;
+}
+
+.hidTR{
+	border-top:hidden;
+	border-right:hidden;
+}
+.hidTRL{
+	border-top:hidden;
+	border-right:hidden;
+	border-left:hidden;
+	}
+	
+.hidTL{
+	border-top:hidden;
+	border-left:hidden;
+	}
+	
+	
+	
+.form-group {
+  margin-bottom: 15px;
+  text-align:right;
+}
+
+
+.form-groupL {
+  margin-bottom: 15px;
+  float:left;
+  margin-left:15px
+}
+
+
+
+.form-groupL .button{
+	width:100px;
+}
+
+
+.button {
+    display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	outline: none;
+	margin-top:15px;
+	margin-right:15px;
+	border-radius:2px;
+	border:solid 1px;
+	border-color:#5B5B5B;
+	
+	background-color: #333;
+	color: #fff;
+}
+
+.button img{
+	margin-top:7px;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.button:hover {
+	background-color: #59b1eb;
+}
+
+
+
+
+h5{
+	color:#FFFFFF;
+	font-size:12px;
+	
+	
+
+
+	text-align:center;
+	font-family: "KozGoPro-ExtraLight", "小塚ゴシック Pro EL", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+
+
+
+h6{
+	color:#464646;
+	font-size:12px;
+	margin-top:25px;
+	
+	
+
+
+	text-align:center;
+	font-family: "KozGoPro-ExtraLight", "小塚ゴシック Pro EL", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+/*
+     FILE ARCHIVED ON 01:12:38 Jul 14, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:44:42 Mar 18, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.189
+  RedisCDXSource: 38.595
+  LoadShardBlock: 122.214 (3)
+  load_resource: 296.561
+  esindex: 0.014
+  exclusion.robots.policy: 0.176
+  captures_list: 178.209
+  CDXLines.iter: 13.711 (3)
+  PetaboxLoader3.resolve: 163.34 (3)
+  PetaboxLoader3.datanode: 191.602 (5)
+*/
